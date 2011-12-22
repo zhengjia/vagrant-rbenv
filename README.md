@@ -1,0 +1,1 @@
+Vagrant with rbenv installed.
