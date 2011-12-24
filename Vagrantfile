@@ -8,6 +8,10 @@ Vagrant::Config.run do |config|
 
   # Every Vagrant virtual environment requires a box to build off of.
   config.vm.box = "lucid64"
+  
+  config.vm.customize do |vm|
+    vm.name = "Vagrant rbenv"
+  end
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
