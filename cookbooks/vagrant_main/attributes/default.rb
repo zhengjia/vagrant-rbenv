@@ -1,8 +1,9 @@
-set['rbenv']['rubies'] = [ "1.9.3-p0" ]
+set['rbenv']['rubies'] = [ "2.0.0-p0" ]
 
 set['rbenv']['gems'] = {
-  '1.9.3-p0' => [
-    { 'name'    => 'rake' },
+  '2.0.0-p0' => [
     { 'name'    => 'bundler' }
   ]  
 }
+
+set['ruby_build']['upgrade'] = true
