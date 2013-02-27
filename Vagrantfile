@@ -7,7 +7,7 @@ Vagrant::Config.run do |config|
   # please see the online documentation at vagrantup.com.
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = "lucid64"
+  config.vm.box = "precise64"
   
   config.vm.customize do |vm|
     vm.name = "Vagrant rbenv"
